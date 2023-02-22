@@ -1,0 +1,4 @@
+com\pageobjects\LoginPage.class
+com\pageobjects\PlainObjectDesignPattern.class
+com\testrunner\TestRunner.class
+com\stepdef\AmazonStepdef.class

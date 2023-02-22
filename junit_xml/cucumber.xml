@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="83.302">
+    <testcase classname="Amazon login feature" name="Sucessful login with vaild Credentials" time="81.503">
+        <failure message="invalid element state&#10;  (Session info: chrome=109.0.5414.120)&#10;Build info: version: '4.2.0', revision: '86eb611648'&#10;System info: host: 'DESKTOP-TQMQ11K', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [21e89936d17b6ed5640745d63afccf84, clearElement {id=3a004333-a1bd-45eb-b49f-d5499a049050}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\sysadmin\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (21e89936d17b6ed5640745d63afccf84)] -&gt; id: ap_email]&#10;Session ID: 21e89936d17b6ed5640745d63afccf84" type="org.openqa.selenium.InvalidElementStateException"><![CDATA[Given User launch chrome browser............................................passed
+When User opens url.........................................................passed
+When User enters email and password.........................................failed
+Then Verify the page title..................................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-TQMQ11K', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21e89936d17b6ed5640745d63afccf84, clearElement {id=3a004333-a1bd-45eb-b49f-d5499a049050}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\sysadmin\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (21e89936d17b6ed5640745d63afccf84)] -> id: ap_email]
+Session ID: 21e89936d17b6ed5640745d63afccf84
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:132)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.clear(Unknown Source)
+	at com.pageobjects.LoginPage.setPassWord(LoginPage.java:55)
+	at com.stepdef.AmazonStepdef.user_enters_email_and_password(AmazonStepdef.java:61)
+	at ✽.User enters email and password(file:///C:/Users/sysadmin/eclipse-workspace/AmazonCucumberFrameWorkDesign/src/test/resources/features/Amazonlogintest.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>

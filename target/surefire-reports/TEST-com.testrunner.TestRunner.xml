@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.testrunner.TestRunner" time="91.959" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sysadmin\eclipse-workspace\AmazonCucumberFrameWorkDesign"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sysadmin\eclipse-workspace\AmazonCucumberFrameWorkDesign"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sysadmin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\sysadmin\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9264157850338096361.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\sysadmin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sysadmin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="sysadmin"/>
+    <property name="java.class.path" value="C:\Users\sysadmin\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\sysadmin\eclipse-workspace\AmazonCucumberFrameWorkDesign\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="m2e.build.project.data.socket.port" value="60442"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Sucessful login with vaild Credentials" classname="Amazon login feature" time="82.248">
+    <error message="invalid element state&#10;  (Session info: chrome=109.0.5414.120)&#10;Build info: version: &apos;4.2.0&apos;, revision: &apos;86eb611648&apos;&#10;System info: host: &apos;DESKTOP-TQMQ11K&apos;, ip: &apos;192.168.0.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [21e89936d17b6ed5640745d63afccf84, clearElement {id=3a004333-a1bd-45eb-b49f-d5499a049050}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\sysadmin\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (21e89936d17b6ed5640745d63afccf84)] -&gt; id: ap_email]&#10;Session ID: 21e89936d17b6ed5640745d63afccf84" type="org.openqa.selenium.InvalidElementStateException">org.openqa.selenium.InvalidElementStateException: 
+invalid element state
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-TQMQ11K', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21e89936d17b6ed5640745d63afccf84, clearElement {id=3a004333-a1bd-45eb-b49f-d5499a049050}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\sysadmin\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (21e89936d17b6ed5640745d63afccf84)] -> id: ap_email]
+Session ID: 21e89936d17b6ed5640745d63afccf84
+</error>
+    <system-out><![CDATA[[DEBUG] Resolution chrome=109 in cache (valid until 20:21:29 02/02/2023 IST)
+[DEBUG] Resolution chrome109=109.0.5414.74 in cache (valid until 11:17:12 03/02/2023 IST)
+[INFO] Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+[DEBUG] Driver chromedriver 109.0.5414.74 found in cache
+[INFO] Exporting webdriver.chrome.driver as C:\Users\sysadmin\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+[DEBUG] Using SLF4J as the default logging framework
+[DEBUG] -Dio.netty.leakDetection.level: simple
+[DEBUG] -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7f9ab969
+[DEBUG] -Dio.netty.noUnsafe: false
+[DEBUG] Java version: 19
+[DEBUG] sun.misc.Unsafe.theUnsafe: available
+[DEBUG] sun.misc.Unsafe.copyMemory: available
+[DEBUG] sun.misc.Unsafe.storeFence: available
+[DEBUG] java.nio.Buffer.address: available
+[DEBUG] direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+[DEBUG] java.nio.Bits.unaligned: available, true
+[DEBUG] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5594a1b5
+[DEBUG] java.nio.DirectByteBuffer.<init>(long, int): unavailable
+[DEBUG] sun.misc.Unsafe: available
+[DEBUG] maxDirectMemory: 2124414976 bytes (maybe)
+[DEBUG] -Dio.netty.tmpdir: C:\Users\sysadmin\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] Platform: Windows
+[DEBUG] -Dio.netty.maxDirectMemory: -1 bytes
+[DEBUG] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] java.nio.ByteBuffer.cleaner(): available
+[DEBUG] -Dio.netty.noPreferDirect: false
+[DEBUG] org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+[DEBUG] Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+[DEBUG] -Dio.netty.eventLoopThreads: 8
+[DEBUG] -Dio.netty.noKeySetOptimization: false
+[DEBUG] -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] -Dio.netty.allocator.pageSize: 8192
+[DEBUG] -Dio.netty.allocator.maxOrder: 9
+[DEBUG] -Dio.netty.allocator.chunkSize: 4194304
+[DEBUG] -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] -Dio.netty.allocator.useCacheForAllThreads: false
+[DEBUG] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] -Dio.netty.allocator.type: pooled
+[DEBUG] -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] -Dio.netty.processId: 1520 (auto-detected)
+[DEBUG] -Djava.net.preferIPv4Stack: false
+[DEBUG] -Djava.net.preferIPv6Addresses: false
+[DEBUG] Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] -Dio.netty.machineId: e4:f8:9c:ff:fe:58:af:75 (auto-detected)
+[DEBUG] -Dio.netty.buffer.checkAccessible: true
+[DEBUG] -Dio.netty.buffer.checkBounds: true
+[DEBUG] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@19c69098
+[DEBUG] Using new Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to '/session'
+[DEBUG] -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] -Dio.netty.recycler.ratio: 8
+[DEBUG] -Dio.netty.recycler.chunkSize: 32
+[DEBUG] -Dio.netty.recycler.blocking: false
+[DEBUG] brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 365
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 794
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Using new Channel '[id: 0xc892f905, L:/127.0.0.1:60500 - R:localhost/127.0.0.1:60489]' for 'GET' to '/json/version'
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+host: localhost:60489
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+content-length: 424
+
+[DEBUG] Adding key: http://localhost:60489 for channel [id: 0xc892f905, L:/127.0.0.1:60500 - R:localhost/127.0.0.1:60489]
+[DEBUG] -Dio.netty.initialSeedUniquifier: 0x4281588fb59f3801
+[DEBUG] Using new Channel '[id: 0x7d64cf91, L:/127.0.0.1:60501 - R:localhost/127.0.0.1:60489]' for 'GET' to '/devtools/browser/a086bbc9-c4a1-4560-9664-f4c742eb7484'
+[DEBUG] 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/a086bbc9-c4a1-4560-9664-f4c742eb7484 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: fi6cP0VYR6Q0ElI+7HJkUA==
+sec-websocket-version: 13
+origin: http://localhost:60489
+host: localhost:60489
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: zkHEdprERqJFb1nZxhtfQTKVE1Q=
+
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/window/maximize'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/window/maximize'
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/window/maximize HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 3
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 51
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/url'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/url'
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/url HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 45
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 78
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element/fd584926-f19a-4d38-a288-429d56141d3c/click'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element/fd584926-f19a-4d38-a288-429d56141d3c/click'
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element/fd584926-f19a-4d38-a288-429d56141d3c/click HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element/f3983b49-b9a1-4a2f-ac16-0b90303f47fd/clear'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element/f3983b49-b9a1-4a2f-ac16-0b90303f47fd/clear'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element/f3983b49-b9a1-4a2f-ac16-0b90303f47fd/clear HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element/f3983b49-b9a1-4a2f-ac16-0b90303f47fd/value'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element/f3983b49-b9a1-4a2f-ac16-0b90303f47fd/value'
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element/f3983b49-b9a1-4a2f-ac16-0b90303f47fd/value HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 181
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/execute/sync'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/execute/sync'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/execute/sync HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 48780
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element/75158c0e-f2e4-4ff7-a8ef-9ab723b50694/click'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element/75158c0e-f2e4-4ff7-a8ef-9ab723b50694/click'
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element/75158c0e-f2e4-4ff7-a8ef-9ab723b50694/click HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Entry count for : http://localhost:52014 : 1
+[DEBUG] Entry count for : http://localhost:60489 : 1
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 53
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 88
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+[DEBUG] Using pooled Channel '[id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]' for 'POST' to 'http://localhost:52014/session/21e89936d17b6ed5640745d63afccf84/element/3a004333-a1bd-45eb-b49f-d5499a049050/clear'
+[DEBUG] Using open Channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014] for POST '/session/21e89936d17b6ed5640745d63afccf84/element/3a004333-a1bd-45eb-b49f-d5499a049050/clear'
+[DEBUG] 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/21e89936d17b6ed5640745d63afccf84/element/3a004333-a1bd-45eb-b49f-d5499a049050/clear HTTP/1.1
+User-Agent: selenium/4.2.0 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:52014
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 880
+
+[DEBUG] Adding key: http://localhost:52014 for channel [id: 0xea4b4436, L:/127.0.0.1:60488 - R:localhost/127.0.0.1:52014]
+
+Scenario: Sucessful login with vaild Credentials # src/test/resources/features/Amazonlogintest.feature:2
+  Given User launch chrome browser               # com.stepdef.AmazonStepdef.user_launch_chrome_browser()
+  When User opens url                            # com.stepdef.AmazonStepdef.user_opens_url(io.cucumber.datatable.DataTable)
+    | http://www.amazon.in |
+  When User enters email and password            # com.stepdef.AmazonStepdef.user_enters_email_and_password(io.cucumber.datatable.DataTable)
+    | 9492257477 | Surendra@577 |
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 52014
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 02, 2023 7:45:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Feb 02, 2023 7:45:25 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "chrome" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:25 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "chrome" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:25 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:25 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:25 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:25 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:25 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:25 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 109, so returning the closest version found: a no-op implementation
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 109.
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.2.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "chrome" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "chrome" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "chrome" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "chrome" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "chrome" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "javascriptEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "networkConnectionEnabled" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+Feb 02, 2023 7:45:26 PM org.openqa.selenium.W3CCapabilityKeysValidator validateCapability
+WARNING: Support for Legacy Capabilities is deprecated; You are sending "platform" which is an invalid capability. Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+]]></system-err>
+  </testcase>
+</testsuite>

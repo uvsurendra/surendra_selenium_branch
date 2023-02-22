@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 91.959 sec <<< FAILURE! - in com.testrunner.TestRunner
+Sucessful login with vaild Credentials(Amazon login feature)  Time elapsed: 82.248 sec  <<< ERROR!
+org.openqa.selenium.InvalidElementStateException: 
+invalid element state
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-TQMQ11K', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21e89936d17b6ed5640745d63afccf84, clearElement {id=3a004333-a1bd-45eb-b49f-d5499a049050}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\sysadmin\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60489/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (21e89936d17b6ed5640745d63afccf84)] -> id: ap_email]
+Session ID: 21e89936d17b6ed5640745d63afccf84
+
