@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FacebookLogin {
-	//welcome to selenium
+	//welcome to selenium suing selenium
 	public WebDriver ldriver;
 	public WebDriverWait wait;
 	
